@@ -3,7 +3,7 @@ import { MdArrowForward } from 'react-icons/md'
 
 const SectionUs = () => {
   return (
-    <div className="rounded bg-primaryBlue flex text-center mt-20 h-[580px] max-w-[1200px] mx-auto px-[60px]">
+    <section className="rounded bg-primaryBlue flex text-center h-[580px] max-w-[1200px] mx-auto px-[60px]">
       <div className="w-full">
         <div className="pt-[140px] text-left max-w-[463px]">
           <p className="text-primaryGray">LOREM IPSUM</p>
@@ -27,7 +27,7 @@ const SectionUs = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
