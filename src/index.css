@@ -10,12 +10,16 @@
     src: url(/public/fonts/tt_commons_regular.otf) format('opentype');
   }
 
+  p {
+    @apply leading-[1.195];
+  }
+
   h1 {
     @apply text-5xl font-semibold leading-[1.195];
   }
 
   h2 {
-    @apply text-4xl;
+    @apply text-4xl leading-[1.195];
   }
 
   h3 {

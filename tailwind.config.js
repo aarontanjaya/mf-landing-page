@@ -3,14 +3,17 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
-    colors: {
-      primaryBlue: '#002D74'
+    extend: {
+      colors: {
+        primaryBlue: '#002D74',
+        primaryGray: '#B9B9B9',
+        primaryTosca: '#50BFA5'
+      }
     },
     fontFamily: {
-      sans: ['"TT Commons"'],
+      sans: ['"TT Commons"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       body: []
-    },
-    extend: {}
+    }
   },
   plugins: []
 }
