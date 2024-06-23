@@ -3,9 +3,9 @@ import { MdArrowForward } from 'react-icons/md'
 
 const SectionUs = () => {
   return (
-    <section className="rounded bg-primaryBlue flex text-center h-[580px] max-w-[1200px] mx-auto px-[60px]">
+    <section className="rounded bg-primaryBlue flex text-center max-w-[1200px] mx-auto px-[60px]">
       <div className="w-full">
-        <div className="pt-[140px] text-left max-w-[463px]">
+        <div className="pt-[140px] text-left max-w-[463px] pb-[110px]">
           <p className="text-primaryGray">LOREM IPSUM</p>
           <h1 className="text-white mt-2">What we are?</h1>
           <p className="text-white text-2xl leading-[1.195] tracking-wider mt-4">

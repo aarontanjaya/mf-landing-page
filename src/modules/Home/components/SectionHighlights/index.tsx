@@ -2,7 +2,7 @@ import HighlightStats from './presentations/HighlightStats'
 
 const SectionHighlights = () => {
   return (
-    <section className="bg-white flex flex-col py-[112px] text-center mx-4 h-[580px] max-w-[1200px] md:mx-auto">
+    <section className="bg-white flex flex-col py-[112px] text-center mx-4 max-w-[1200px] md:mx-auto">
       <div className="mt-[50px] flex flex-col items-center mx-auto">
         <h1 className=" text-primaryBlue">
           We’ve helped our investors in a big way.
