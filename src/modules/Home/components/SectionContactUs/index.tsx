@@ -7,7 +7,7 @@ const SectionContactUs = () => {
         <h2 className="text-primaryTosca font-medium">Wanna Invest?</h2>
         <h1 className="text-primaryBlue mt-2">Contact Us</h1>
       </div>
-      <div className="h-[600px] w-full">
+      <div className="h-[400px] md:h-[500px] lg:h-[600px] w-full">
         <Map
           defaultZoom={15.9}
           defaultCenter={{
