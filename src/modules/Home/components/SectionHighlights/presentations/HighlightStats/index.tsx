@@ -8,8 +8,8 @@ const HighlightStats = ({
 }: React.ComponentProps<'div'>) => {
   return (
     <div className={`${className} grid grid-cols-3`} {...props}>
-      {HIGHLIGHT_STATS.map(props => (
-        <CardHighlight {...props} />
+      {HIGHLIGHT_STATS.map((props, idx) => (
+        <CardHighlight key={`highlight-${idx}`} {...props} />
       ))}
     </div>
   )
