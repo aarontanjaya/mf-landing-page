@@ -8,7 +8,13 @@ import { APIProvider } from '@vis.gl/react-google-maps'
 
 const theme = createTheme({
   typography: {
+    fontFamily: ['"TT Commons"', 'sans-serif'].join(','),
     fontSize: 16
+  },
+  palette: {
+    primary: {
+      main: '#002D74'
+    }
   }
 })
 
