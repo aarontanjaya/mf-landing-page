@@ -10,6 +10,10 @@
     src: url(/public/fonts/tt_commons_regular.otf) format('opentype');
   }
 
+  a {
+    @apply cursor-pointer;
+  }
+
   p {
     @apply leading-[1.195];
   }
@@ -24,6 +28,10 @@
 
   h3 {
     @apply text-xl md:text-2xl leading-[1.195];
+  }
+
+  h4 {
+    @apply text-xl leading-[1.195] font-semibold;
   }
 }
 
