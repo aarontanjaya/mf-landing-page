@@ -15,15 +15,15 @@
   }
 
   h1 {
-    @apply text-5xl font-semibold leading-[1.195];
+    @apply text-4xl md:text-5xl font-semibold leading-[1.195];
   }
 
   h2 {
-    @apply text-4xl leading-[1.195];
+    @apply text-3xl md:text-4xl leading-[1.195];
   }
 
   h3 {
-    @apply text-2xl leading-[1.195];
+    @apply text-xl md:text-2xl leading-[1.195];
   }
 }
 

@@ -1,7 +1,8 @@
 import { AdvancedMarker, Map } from '@vis.gl/react-google-maps'
+import ListContacts from './components/ListContacts'
 const SectionContactUs = () => {
   return (
-    <section className="bg-white flex flex-col py-[112px] max-w-[1200px] text-center mx-4 md:mx-auto">
+    <section className="bg-white flex flex-col py-[112px] pb-[100px] max-w-[1200px] text-center mx-4 md:mx-auto">
       <div className="flex flex-col items-left w-full text-start mb-[100px]">
         <h2 className="text-primaryTosca font-medium">Wanna Invest?</h2>
         <h1 className="text-primaryBlue mt-2">Contact Us</h1>
@@ -26,6 +27,7 @@ const SectionContactUs = () => {
           Tamara Center Lantai 7, Jl. Jend. Sudirman Kav. 24 Jakarta Pusat
         </p>
       </div>
+      <ListContacts />
     </section>
   )
 }

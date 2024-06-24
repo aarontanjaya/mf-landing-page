@@ -4,7 +4,7 @@ export const HIGHLIGHT_STATS: CardHighlightProps[] = [
   {
     subtitle: 'Asset Under Management',
     amount: 1000000,
-    className: 'bg-[#F1F1F1]'
+    className: 'bg-secondaryGray'
   },
   {
     subtitle: 'Asset Under Management',
