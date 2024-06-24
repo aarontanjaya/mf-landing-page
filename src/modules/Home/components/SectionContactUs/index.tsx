@@ -3,7 +3,7 @@ import ListContacts from './components/ListContacts'
 const SectionContactUs = () => {
   return (
     <section className="bg-white flex flex-col py-[112px] pb-[100px] max-w-[1200px] text-center mx-4 md:mx-auto">
-      <div className="flex flex-col items-left w-full text-start mb-[100px]">
+      <div className="flex flex-col items-left w-full text-start mb-[100px] md:mx-6">
         <h2 className="text-primaryTosca font-medium">Wanna Invest?</h2>
         <h1 className="text-primaryBlue mt-2">Contact Us</h1>
       </div>

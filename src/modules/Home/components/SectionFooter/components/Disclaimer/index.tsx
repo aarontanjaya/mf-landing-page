@@ -1,4 +1,7 @@
-const Disclaimer = ({ className, ...props }: React.ComponentProps<'div'>) => {
+const Disclaimer = ({
+  className = '',
+  ...props
+}: React.ComponentProps<'div'>) => {
   return (
     <div className={`${className} w-full text-left`} {...props}>
       <h4 className="mb-6">All investing involves risk.</h4>

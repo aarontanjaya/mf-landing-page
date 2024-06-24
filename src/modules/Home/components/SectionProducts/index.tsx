@@ -9,7 +9,7 @@ const SectionProducts = () => {
     setActiveTab(id || null)
   }
   return (
-    <section className="bg-white flex flex-col py-[112px] text-center ml-4 md:ml-[calc(50%-600px)]">
+    <section className="bg-white flex flex-col py-[112px] text-center ml-4 md:ml-6 lg:ml-[calc(50%-600px)]">
       <div className="flex flex-col items-left w-full text-start mb-[100px]">
         <h2 className="text-primaryTosca font-medium">Best craft for you</h2>
         <h1 className="text-primaryBlue mt-2">Discover Our Products</h1>
