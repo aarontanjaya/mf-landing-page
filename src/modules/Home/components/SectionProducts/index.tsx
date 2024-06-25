@@ -39,9 +39,13 @@ const SectionProducts = () => {
         ))}
       </Tabs>
       <div className="mt-[45px] flex flex-row gap-x-4 overflow-scroll">
-        {PRODUCTS.map(item =>
+        {PRODUCTS.map((item, idx) =>
           item?.categoryId == activeTab || activeTab == CATEGORY_ID_ALL ? (
-            <CardProduct code={item?.code} name={item?.name} />
+            <CardProduct
+              key={`product-${idx}-${item?.name}`}
+              code={item?.code}
+              name={item?.name}
+            />
           ) : null
         )}
       </div>
